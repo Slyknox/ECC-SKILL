@@ -1,6 +1,6 @@
 # ECC — Agent Instructions
 
-This is a **production-ready AI coding plugin** providing 68 specialized agents, 293 skills, 94 commands, and automated hook workflows for software development.
+This is a **production-ready AI coding plugin** providing 70 specialized agents, 297 skills, 94 commands, and automated hook workflows for software development.
 
 **Version:** 2.2.3
 
@@ -78,6 +78,8 @@ This is a **production-ready AI coding plugin** providing 68 specialized agents,
 | conversation-analyzer | Extract hook behaviors from session transcripts | Creating hooks from observed patterns |
 | marketing-agent | Campaign planning, copy creation, content calendars | Product launches, marketing campaigns |
 | seo-specialist | Technical SEO audit, structured data, Core Web Vitals | Site audits, meta tag and schema issues |
+| short-form-video-producer | Script to AI video to publish-ready package, with compliance check | Weekly short-form video batches for consumer apps |
+| subscription-growth-analyst | Growth model, weekly KPI review, channel CAC vs cap, ASO review | Subscription app funnel, unit economics, store listing audits |
 | opensource-forker | Fork projects and strip secrets for open-sourcing | Starting an open-source release |
 | opensource-sanitizer | Verify sanitized fork is release-ready | Before any public release |
 | opensource-packager | Generate OSS packaging boilerplate (README, LICENSE, etc.) | Finalizing an open-source release |
@@ -200,8 +202,8 @@ Troubleshoot failures: check test isolation → verify mocks → fix implementat
 ## Project Structure
 
 ```
-agents/          — 68 specialized subagents
-skills/          — 293 workflow skills and domain knowledge
+agents/          — 70 specialized subagents
+skills/          — 297 workflow skills and domain knowledge
 commands/        — 94 slash commands
 hooks/           — Trigger-based automations
 rules/           — Always-follow guidelines (common + per-language)
