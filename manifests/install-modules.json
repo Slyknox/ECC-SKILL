@@ -517,7 +517,11 @@
         "skills/brand-discovery",
         "skills/competitive-platform-analysis",
         "skills/competitive-report-structure",
-        "skills/marketing-campaign"
+        "skills/marketing-campaign",
+        "skills/short-form-video-scripts",
+        "skills/ai-video-production",
+        "skills/app-store-optimization",
+        "skills/subscription-app-growth-model"
       ],
       "targets": [
         "claude",
